@@ -1,1 +1,2 @@
-import { default as Navbar } from "./navbar";
+import { default as Navbar } from "../navbar";
+export { default as Home } from "./home";
