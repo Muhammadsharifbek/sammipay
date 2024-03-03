@@ -1,18 +1,14 @@
-import React from "react";
 import { styles } from "./util/sytle";
-console.log(styles);
+import { Navbar } from "./components/navbar.jsx";
+import "./index.css";
 
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="bg-black w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.coontainer}`}>
-          <div className="text-white">Navbar</div>
+        <div className={`${styles.container}`}>
+          <Navbar />
         </div>
-      </div>
-
-      <div className="bg-slate-500">
-        <p className="${styles.paragraph}"> lorem ipsum dolor </p>
       </div>
     </div>
   );

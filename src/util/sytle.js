@@ -5,8 +5,9 @@ export const styles = {
   marginX: "sm:mx-15 mx-6",
   marginY: "sm:my-16 my-6",
   container: "xl:max-w-[1280px] w-full ",
-  fllexCenter: "flex justify-center items-center",
+  flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
-  paragraph: "font-montserrat font-normal text-lightCrimson text-[18px] loading-[30.8px",
-  heading: "font-montserrat font-semibold xs:text[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px w-full",
+  flexBetween: "flex justify-between items-center",
+  paragraph: "font-montserrat font-normal text-lightBlue text-[18px] loading-[30.8px",
+  heading: "font-montserrat font-semibold xs:text[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
 };
