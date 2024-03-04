@@ -18,7 +18,7 @@ export const Navbar = () => {
             key={nav.id}
             className={`font-montserrat font-normal cursor-pointer text-16  text-white   hover:text-white transition-all duration-500 ${
               idx === navigationsLinks.length - 1 ? "mr-0" : "mr-10"
-            } ${active === nav.id ? "text-white" : "text-gray-800"}  `}
+            } ${active === nav.id ? "text-white" : "text-gray-700"}  `}
             onClick={() => activHendler(nav.id)}
           >
             {nav.title}
@@ -35,7 +35,7 @@ export const Navbar = () => {
                 key={nav.id}
                 className={`font-montserrat font-normal cursor-pointer text-16  text-white  hover:text-white transition-all duration-500 ${
                   idx === navigationsLinks.length - 1 ? "mr-0" : "mr-10"
-                } ${active === nav.id ? "text-white" : "text-gray-500"}  `}
+                } ${active === nav.id ? "text-white" : "text-gray-700"}  `}
                 onClick={() => activHendler(nav.id)}
               >
                 {nav.title}

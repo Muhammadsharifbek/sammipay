@@ -15,7 +15,7 @@ export const Home = () => {
         <img src={robot} alt="robot" className="w-[100%] h-[100%] relative z-10 rounded-sm" />
       </div>
       {/* information */}
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 ml-3 relative px-6`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 ml-3  px-6`}>
         {/* discount */}
 
         <div className=" flex  flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-slate-500 bg-discount-gradient">
@@ -34,8 +34,8 @@ export const Home = () => {
         </div>
 
         {/* description */}
-        <div className="">
-          <p className={`${styles.paragraph} mt-6 max-w-[550px] text-white`}>
+        <div>
+          <p className={`${styles.paragraph} mt-6 max-w-[550px] text-white mb-3`}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem aliquid vel cum, esse praesentium iusto minima cumque error, voluptatibus ad
             iste numquam reprehenderit, et a vitae. Aliquid illo accusantium tenetur!
           </p>
@@ -44,9 +44,9 @@ export const Home = () => {
 
         <Button />
 
-        <div class="absolute z-0 w-[40%] h-[35%] top-0  pink__gradient"></div>
-        <div class="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40  white__gradient"></div>
-        <div class="absolute z-[2] w-[50%] h-[55%] right-20 bottom-20 blue__graient"></div>
+        <div class="absolute z-0 w-[40%] h-[35%] top-0  pink-gradient"></div>
+        <div class="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40  white-gradient"></div>
+        <div class="absolute z-[2] w-[50%] h-[55%] right-20 bottom-20 blue-graient"></div>
       </div>
     </section>
   );

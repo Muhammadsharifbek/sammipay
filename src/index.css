@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -34,17 +34,17 @@
   -webkit-text-fill-color: #5ce1e6;
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+.blue-gradient {
+  background: linear-gradient(180deg, rgba(73, 18, 238, 0) 0%, #214d76 100%);
   filter: blur(900px);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #aba8bd 100%);
+.pink-gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #9a98aa 100%);
   filter: blur(900px);
 }
 
-.white__gradient {
+.white-gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
